@@ -1,0 +1,5 @@
+{
+  "extensions":[
+    { "name": "ApplicationInsights", "typeName":"Microsoft.Azure.WebJobs.Extensions.ApplicationInsights.ApplicationInsightsWebJobsStartup, Microsoft.Azure.WebJobs.Extensions.ApplicationInsights, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9475d07f10cb09df"}
+  ]
+}
