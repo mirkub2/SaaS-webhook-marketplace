@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\marketplace\\labs\\SaaSFunctions\\SaaSFunctions.csproj": {}
+    "C:\\marketplace\\labs\\github\\webhook\\SaaSFunctions.csproj": {}
   },
   "projects": {
-    "C:\\marketplace\\labs\\SaaSFunctions\\SaaSFunctions.csproj": {
+    "C:\\marketplace\\labs\\github\\webhook\\SaaSFunctions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\marketplace\\labs\\SaaSFunctions\\SaaSFunctions.csproj",
+        "projectUniqueName": "C:\\marketplace\\labs\\github\\webhook\\SaaSFunctions.csproj",
         "projectName": "SaaSFunctions",
-        "projectPath": "C:\\marketplace\\labs\\SaaSFunctions\\SaaSFunctions.csproj",
+        "projectPath": "C:\\marketplace\\labs\\github\\webhook\\SaaSFunctions.csproj",
         "packagesPath": "C:\\Users\\mirkub\\.nuget\\packages\\",
-        "outputPath": "C:\\marketplace\\labs\\SaaSFunctions\\obj\\",
+        "outputPath": "C:\\marketplace\\labs\\github\\webhook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mirkub\\AppData\\Roaming\\NuGet\\NuGet.Config",

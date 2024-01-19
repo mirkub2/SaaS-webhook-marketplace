@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kr8sA7xS9DYTxxXV6OpD+8rtCF8srCM7rngW9Wlp3GqSf0xpcCSucqUsBxA085ycfnsiJGgF3PR3++5vyM/Cqg==",
+  "dgSpecHash": "2EqMtHxuCEQMAF3H2TnQMAZ5gK5yGNN9tJetQwXb7i1/jR3LhYRG+E1gCkMtsTSoe9GuJaWW+t0wguju+hrMLw==",
   "success": true,
-  "projectFilePath": "C:\\marketplace\\labs\\SaaSFunctions\\SaaSFunctions.csproj",
+  "projectFilePath": "C:\\marketplace\\labs\\github\\webhook\\SaaSFunctions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mirkub\\.nuget\\packages\\azure.core\\1.10.0\\azure.core.1.10.0.nupkg.sha512",
     "C:\\Users\\mirkub\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
