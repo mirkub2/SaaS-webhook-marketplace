@@ -193,19 +193,19 @@ namespace SaasFunctions
             var tenantId = jwtToken.Claims.FirstOrDefault(c => c.Type == "tid").Value;
             var issuer = jwtToken.Claims.FirstOrDefault(c => c.Type == "iss").Value;
 
-            if (appId != config["Auth:ApplicationId"])
+            if (appId != config["MarketplaceApi:ClientId"])
             {
                 _logger.LogInformation("Application ID does not match.");
-                _logger.LogInformation($"Configured Application ID: {config["Auth:ApplicationId"]}");
+                _logger.LogInformation($"Configured Application ID: {config["MarketplaceApi:ClientId"]}");
                 _logger.LogInformation($"Received Application ID: {appId}");
 
                 return false;
             }
 
-            if (tenantId != config["Auth:TenantId"])
+            if (tenantId != config["MarketplaceApi:TenantId"])
             {
                 _logger.LogInformation("Tenant ID does not match.");
-                _logger.LogInformation($"Configured Tenant ID: {config["Auth:ApplicationId"]}");
+                _logger.LogInformation($"Configured Tenant ID: {config["MarketplaceApi:TenantId"]}");
                 _logger.LogInformation($"Received Tenant ID: {tenantId}");
                 return false;
             }
