@@ -62,7 +62,7 @@ namespace SaasFunctions
             int quantity_in_payload = data.quantity;
 
             //check validity of call from marketplace to webhook
-            //with call to marketplace API from webhook
+            //with call to SaaS Fullfilment API v2 from webhook
             try
             {
                 var config = new ConfigurationBuilder()
