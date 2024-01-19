@@ -44,13 +44,15 @@ namespace SaasFunctions
 
             PrintToLogHeader();
 
-            //check claim - JWT token 
+
+            //1.check claim - JWT token (check of applicationId, TenantID, iss)  
             if (!RequestIsSecure())
             {
                 _logger.LogInformation("Security checks did not pass!");
                 return new StatusCodeResult((int)HttpStatusCode.Forbidden);
             }
 
+            //2. read payload
             var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             dynamic data = JsonConvert.DeserializeObject(requestBody);
 
@@ -61,8 +63,8 @@ namespace SaasFunctions
             string SubscriptionId_in_payload = data.subscriptionId;
             int quantity_in_payload = data.quantity;
 
-            //check validity of call from marketplace to webhook
-            //with call to SaaS Fullfilment API v2 from webhook
+            //3. check validity of request 
+            //   with call to SaaS Fullfilment API v2 
             try
             {
                 var config = new ConfigurationBuilder()
@@ -109,8 +111,14 @@ namespace SaasFunctions
 
             }
 
-            
-            //everything is OK, send OK also to marketplace to confirm change
+            //4. If validations are OK, provision access/license for customer
+            //   or save payload data to queue, which will be processed after
+            //   placeholder for publisher provisioning code
+
+
+            //
+            //5. Everything is OK and processed, send OK also to marketplace
+            //   to confirm change
             return new OkResult();
         }
 
