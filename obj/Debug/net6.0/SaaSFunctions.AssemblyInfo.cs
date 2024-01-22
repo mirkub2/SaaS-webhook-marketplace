@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SaaSFunctions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ece9b5e22987e4ba975b4d15e33ab8c201734203")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+684ae3b382333c7edb1d673dca5b8793bdf28851")]
 [assembly: System.Reflection.AssemblyProductAttribute("SaaSFunctions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SaaSFunctions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

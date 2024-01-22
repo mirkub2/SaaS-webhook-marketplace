@@ -12,9 +12,7 @@
 Deployment
 - deploy to Azure Functions (Windows)
 - add these environment variables to Azure Function
-
-      Auth:ApplicationId    (according to Technical Configuration of SaaS offer in Partner Center)
-      Auth:TenantId   (according to Technical Configuration of SaaS offer in Partner Center)
+         
       MarketplaceApi:TenantId    (according to Technical Configuration of SaaS offer in Partner Center)
       MarketplaceApi:ClientId (ClientId is ApplicationID) 
       MarketplaceApi:ClientSecret (find this in EntraID/Application Registrations for used ClientId)
